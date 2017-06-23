@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+
+
+</head>
+<h>LOG IN<h>
+<body style="background-image: url('/home/itlab/Downloads/backgrnd.jpg');padding:60px;width:300px;height:300px solid black; ">
+ 
+
+<form> <input type="text" placeholder="Username" id="text1" /><br />
+    <input type="password" placeholder="Password" id="text2" /><br />
+    <input type="button" value="Login"  onclick="javascript:validate()" />
+</form>
+<script type="text/javascript">
+function validate()
+{
+    if(   document.getElementById("text1").value == "aa"
+       && document.getElementById("text2").value == "bb" )
+    {
+        alert( "validation succeeded" );
+        location.href="main.html";
+    }
+    else
+    {
+        alert( "validation failed" );
+        location.href="shop.html";
+    }
+}
+</script>
+
+
+</body>
+</html>
+

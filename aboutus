@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="file:///home/itlab/Downloads/main.html">Home</a>
+   </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="/home/itlab/Downloads/bh.jpg" class="img-responsive img-circle margin" style="display:inline" alt="BH" width="200" height="200">
+  <h3></h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>The Boutique Hub is a media company dedicated to showcasing boutique fashion from around the world. Connect with consumers, the boutique industry, find strategies and tools for your business, wholesale brands, and connect with tools to help you grow.In recent years, and with the extreme growth in blogs and social media, IM has gained quite a bit of traction, with businesses utilizing popular Hollywood and internet celebrities to showcase their products. What initially started with big brands affiliating themselves with the uber-famous faces of Kim Kardashian and Gigi Hadid, has trickled down into businesses of all sizes using semi-famous members of their target audiences to gain more exposure among an influencer’s following. </p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">What are we?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>As a business owner, you’ve probably heard the term “Influencer Marketing”, but what exactly is it? Influencer Marketing (IM) is a form of marketing where the focus is placed on specific individuals, rather than the target market as a whole.</p>
+      <img src="/home/itlab/Downloads/A3.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>An influencer is going to drive traffic to your social media channels, traffic who will hopefully start following you. It’s your job to make those followers want to engage with your business and it’s products, because then they’re more likely to make a purchase.</p>
+      <img src="/home/itlab/Downloads/A4.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Whether you are hitting the beach for some sun and waves, meeting friends for a brunch, or going on a date to indulge in some ice cream (can you tell what’s on my mind right now?), then these pieces most definitely will have you craving more.</p>
+      <img src="/home/itlab/Downloads/A5.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>FASHION FADES,STYLE IS EXTERNAL..</p> 
+</footer>
+
+</body>
+</html>
